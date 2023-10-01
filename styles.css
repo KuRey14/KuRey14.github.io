@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: rgb(250, 255, 250);
+}
+
+.menu-container {
+    margin: 0 auto; 
+}
+
+.section {
+    background-color: rgb(242, 252, 232); 
+    margin: 20px 100px; 
+    padding: 20px;
+    border-radius: 20px;
+    background-size: 60% auto; 
+    background-position: center center;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0; 
+    font-family: 'Montserrat Light 300', sans-serif;
+    white-space: nowrap;
+}
+
+span {
+    font-family: 'Montserrat Medium 500', sans-serif;
+}
+
+.believe-shop {
+    letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section {
+        background-color: rgb(223, 246, 201); 
+        padding: 10px;
+        margin: 10px 60px;
+
+    }
+
+    span {
+        font-size: 16px;
+    }
+    
+    .alco {
+        font-size: 12px;
+        text-align: center;
+    }
+}
